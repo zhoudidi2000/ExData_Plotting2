@@ -38,7 +38,7 @@ PM2.5 Emissions Data (`summarySCC_PM25.rds`): This file contains a data frame wi
 - `year`: The year of emissions recorded
 
 
-Source Classification Code Table (`Source_Classification_Code.rds`): This table provides a mapping from the SCC digit strings int he Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source ¡°10100101¡± is known as ¡°Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal¡±.
+Source Classification Code Table (`Source_Classification_Code.rds`): This table provides a mapping from the SCC digit strings int he Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source "10100101" is known as "Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal".
 
 You can read each of the two files using the `readRDS()` function in R. For example, reading in each file can be done with the following code:
 ```
@@ -69,7 +69,7 @@ You must address the following questions and tasks in your exploratory analysis.
 4.Across the United States, how have emissions from coal combustion-related sources changed from 1999-2008?
 
 
-5.How have emissions from motor vehicle sources changed from 1999¨C2008 in **Baltimore City**? 
+5.How have emissions from motor vehicle sources changed from 1999-2008 in **Baltimore City**? 
 
 
 6.Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in **Los Angeles County**, California (`fips == "06037"`). Which city has seen greater changes over time in motor vehicle emissions?
